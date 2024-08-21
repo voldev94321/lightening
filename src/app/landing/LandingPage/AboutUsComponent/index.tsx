@@ -51,7 +51,7 @@ const AboutUsComponent = () => {
 
   return (
     <div className="mt-48 text-center">
-      <div className="mt-2 text-accent font-semibold">ABOUT US</div>
+      <div className="mt-2 text-accent font-semibold text-sm">ABOUT US</div>
       <div className="mt-2 text-3xl font-semibold">
         Why do businesses choose us for their operations?
       </div>

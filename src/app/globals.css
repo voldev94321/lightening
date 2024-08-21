@@ -33,6 +33,7 @@
     --text: 0 0% 12%;
     --success: 160 100% 36%;
     --success-border: 160 54% 84%; 
+    --warning: 40 95% 57%;
   }
 
   .dark {

@@ -24,6 +24,10 @@ const config: Config = {
           DEFAULT: "hsl(var(--success))",
           background: "hsla(var(--success) / 10%)",
           border: "hsl(var(--success-border))",
+        },
+        warning: {
+          DEFAULT: 'hsl(var(--warning))',
+          background: "hsla(var(--warning) / 5%)",
         }
       },
       fontSize: {
