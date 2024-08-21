@@ -15,7 +15,16 @@ const config: Config = {
       },
       colors: {
         accent: "hsl(var(--accent))",
-      }
+        text: "hsl(var(--text))",
+        success: {
+          DEFAULT: "hsl(var(--success))",
+          background: "hsla(var(--success) / 10%)",
+          border: "hsl(var(--success-border))",
+        }
+      },
+      fontSize: {
+        "2xs": ['11px', '14px'],
+      },
     },
   },
   plugins: [],

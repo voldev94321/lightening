@@ -2,7 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-
 @layer base {
   :root {
     --background: 0 0% 100%;
@@ -31,6 +30,9 @@
     --chart-3: 197 37% 24%;
     --chart-4: 43 74% 66%;
     --chart-5: 27 87% 67%;
+    --text: 0 0% 12%;
+    --success: 160 100% 36%;
+    --success-border: 160 54% 84%; 
   }
 
   .dark {
@@ -74,6 +76,14 @@
   height: 89.92px;
 }
 
-.h-logo{
+.h-logo {
   height: 50.29px;
+}
+
+.text-landing {
+  font-size: 46px;
+  font-weight: 600;
+  line-height: 57.5px;
+  letter-spacing: -0.02em;
+  text-align: left;
 }
