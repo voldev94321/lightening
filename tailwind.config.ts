@@ -28,7 +28,11 @@ const config: Config = {
         warning: {
           DEFAULT: 'hsl(var(--warning))',
           background: "hsla(var(--warning) / 5%)",
-        }
+        },
+        secondary: {
+          DEFAULT: 'hsl(var(--secondary))',
+        },
+        discord: 'hsl(var(--discord))',
       },
       fontSize: {
         "2xs": ['11px', '14px'],
