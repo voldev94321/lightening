@@ -5,6 +5,7 @@ import LandingComponent from "./LandingComponent";
 import AboutUsComponent from "./AboutUsComponent";
 import PricingComponent from "./PricingComponent";
 import LearnMoreComponent from "./LearnMoreComponent";
+import FAQsComponent from "./FAQsComponent";
 
 const LandingPage = () => {
   return (
@@ -14,6 +15,7 @@ const LandingPage = () => {
       <AboutUsComponent />
       <PricingComponent />
       <LearnMoreComponent/>
+      <FAQsComponent/>
     </div>
   );
 };
