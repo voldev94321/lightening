@@ -4,6 +4,7 @@ import TopBar from "@/layouts/TopBar";
 import LandingComponent from "./LandingComponent";
 import AboutUsComponent from "./AboutUsComponent";
 import PricingComponent from "./PricingComponent";
+import LearnMoreComponent from "./LearnMoreComponent";
 
 const LandingPage = () => {
   return (
@@ -12,6 +13,7 @@ const LandingPage = () => {
       <LandingComponent />
       <AboutUsComponent />
       <PricingComponent />
+      <LearnMoreComponent/>
     </div>
   );
 };
