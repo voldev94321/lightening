@@ -55,7 +55,7 @@ const AboutUsComponent = () => {
       <div className="mt-2 text-3xl font-semibold">
         Why do businesses choose us for their operations?
       </div>
-      <div className="mt-2 ">
+      <div className="mt-2 text-light opacity-75">
         We offer a reliable & complex proxy infrastructure at everyone&apos;s
         <br /> disposal, ready to deliver outstanding performances.
       </div>
