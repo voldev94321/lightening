@@ -98,7 +98,7 @@ const PricingComponent = () => {
           />
         </div>
         <div className="flex flex-col">
-          <div className="border-2 border-accent rounded-2xl bg-accent-ten px-11 py-8 lg:h-fit md:flex-grow">
+          <div className="border-2 border-accent rounded-2xl bg-accent-ten px-11 py-8 lg:h-[475px] md:flex-grow flex flex-col justify-center">
             <div className="text-xl font-semibold">IPv6</div>
             <div className="mt-4 opacity-75">
               Duis at est et tellus suscipit interdum non id mauris. Aenean
@@ -118,7 +118,7 @@ const PricingComponent = () => {
               </div>
             ))}
           </div>
-          <div className="mt-5 border-2 justify-between px-9 py-4 rounded-2xl items-center hidden lg:flex md:block bg-light-one border-light-ten">
+          <div className="mt-5 border-2 justify-between px-9 py-7 rounded-2xl items-center hidden lg:flex md:block bg-light-one border-light-ten">
             <div className="font-semibold">For any custom plans</div>
             <div className="flex items-center bg-accent-five text-accent px-8 py-3 rounded-xl font-semibold  hover:bg-accent-ten transition cursor-pointer md:mt-4 lg:mt-0">
               Contact Us&nbsp;

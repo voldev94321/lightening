@@ -70,7 +70,8 @@ const config = {
         light: {
           DEFAULT: 'hsl(var(--light))',
           one: '#fcfcfc',
-          ten: 'hsla(var(--light) / 10%)'
+          ten: 'hsla(var(--light) / 10%)',
+          75: 'hsla(var(--light) / 75%)'
         },
       },
       borderRadius: {
