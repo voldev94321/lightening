@@ -14,7 +14,7 @@ const items = [
     title: "Global Proxies",
     value:
       "Our proxy network contains millions of unique IP addresses from 150+ countries and 1000+ cities. Web scraping has never been so easy since us.",
-    icon: "flash.svg",
+    icon: "global.svg",
   },
   {
     title: "Diversity",
