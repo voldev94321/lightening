@@ -37,15 +37,15 @@ const FAQsComponent = () => {
     setSelectedQA(index);
   };
   return (
-    <div className="mt-56 py-10 px-16 border-accent-ten border-2 rounded-3xl flex flex-col max-w-[892px] mx-auto">
+    <div className="md:mt-56 mt-20 md:py-10 md:px-16 py-5 px-6 border-accent-ten border-2 rounded-3xl flex flex-col max-w-[892px] mx-auto">
       <div className="text-accent font-semibold text-lg">FAQs</div>
-      <div className="text-3xl font-semibold mt-2 mb-8">
+      <div className="md:text-3xl text-2xl font-semibold mt-2 mb-8">
         All your Questions, Answered
       </div>
       {QAs.map((item, index) => (
         <div
           key={"qa-" + index}
-          className={`p-7 border-2 rounded-2xl mb-3 cursor-pointer ${selectedQA == index && "border-accent"}`}
+          className={`md:p-7 p-3 border-2 rounded-2xl mb-3 cursor-pointer ${selectedQA == index && "border-accent"}`}
           onClick={()=>{handleClick(index)}}
         >
           <div className="flex justify-between items-center">

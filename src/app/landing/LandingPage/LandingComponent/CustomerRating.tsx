@@ -19,8 +19,8 @@ const CustomerRating = () => {
             </div>
         </div>
         <div>
-            <div className="flex items-center gap-1 text-lg font-semibold">Rated 4.9 <TiStarFullOutline className="text-success" /> on TrustPilot</div>
-            <div className="opacity-75">By 1000+ Customers</div>
+            <div className="flex items-center gap-1 md:text-lg text-sm font-semibold text-nowrap">Rated 4.9 <TiStarFullOutline className="text-success" /> on TrustPilot</div>
+            <div className="opacity-75 text-sm">By 1000+ Customers</div>
         </div>
     </div>
 };

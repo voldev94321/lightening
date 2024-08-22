@@ -12,28 +12,44 @@ const bestLevels = [
 
 const LearnMoreComponent = () => {
   return (
-    <div className="mt-60 md:flex gap-14 items-center">
+    <div className="md:mt-60 mt-20 md:flex gap-14 items-center">
       <img src="/img/learn.png" alt="learn" />
-      <div>
+      <div className="mt-12 md:mt-0">
         <div className="text-accent font-semibold">LEARN MORE ABOUT US</div>
-        <div className="text-4xl font-semibold mt-2">
-          What makes our service
+        <div className="hidden md:block">
+          <div className="text-4xl font-semibold mt-2">
+            What makes our service
+          </div>
+          <div className="text-4xl font-semibold mt-2 flex">
+            the{" "}
+            <img
+              src="/img/diamond.png"
+              alt="diamond"
+              className="w-11 h-11 mx-2"
+            />{" "}
+            Best on the internet?
+          </div>
         </div>
-        <div className="text-4xl font-semibold mt-2 flex">
-          the{" "}
-          <img
-            src="/img/diamond.png"
-            alt="diamond"
-            className="w-11 h-11 mx-2"
-          />{" "}
-          Best on the internet?
+        <div className="block md:hidden">
+          <div className="text-4xl font-semibold mt-2">What makes our</div>
+          <div className="text-4xl font-semibold mt-2 flex">
+            service the{" "}
+            <img
+              src="/img/diamond.png"
+              alt="diamond"
+              className="w-11 h-11 mx-2"
+            />{" "}
+          </div>
+          <div className="text-4xl font-semibold mt-2">
+            Best on the internet?
+          </div>
         </div>
         <div className="mt-4 text-lg opacity-75 ">
           In hac habitasse platea dictumst. Sed erat nibh, vulputate ut lorem
           at, tincidunt varius magna. Aenean enim dui, lacinia id faucibus a,
           vestibulum eu mi
         </div>
-        <div className="mt-6 text-lg opacity-75">
+        <div className="mt-6 text-lg opacity-75 text-nowrap">
           We got the best level of everything :
         </div>
         {bestLevels.map((value, index) => (

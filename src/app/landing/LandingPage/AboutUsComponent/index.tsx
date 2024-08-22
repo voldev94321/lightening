@@ -50,7 +50,7 @@ const AboutUsComponent = () => {
   };
 
   return (
-    <div className="mt-48 text-center">
+    <div className="md:mt-48 mt-20 text-center">
       <div className="mt-2 text-accent font-semibold text-sm">ABOUT US</div>
       <div className="mt-2 text-3xl font-semibold">
         Why do businesses choose us for their operations?
@@ -59,7 +59,7 @@ const AboutUsComponent = () => {
         We offer a reliable & complex proxy infrastructure at everyone&apos;s
         <br /> disposal, ready to deliver outstanding performances.
       </div>
-      <div className="grid grid-cols-3 mt-12 gap-6">
+      <div className="grid md:grid-cols-3 grid-cols-1 mt-12 gap-6">
         {items.map((item, index) => (
           <div
             key={"about-grid-" + index}
