@@ -9,7 +9,7 @@ interface PlanProps {
 
 const Plan = ({ title, additionalDescription, price, isBest }: PlanProps) => {
   return (
-    <div className={`px-11 py-9 rounded-2xl ${isBest ? "border-2 border-warning bg-warning-background " : "bg-light-one"}`}>
+    <div className={`px-11 py-9 rounded-2xl ${isBest ? "border-2 border-warning bg-warning-background hover:bg-warning-quater transition" : "bg-light-one hover:border-accent border-2 border-transparent transition hover:bg-accent-ten"}`}>
       <div className="flex justify-between items-center">
         <div>
           <div className={`text-lg font-semibold ${isBest && "text-warning"}`}>{title}</div>
