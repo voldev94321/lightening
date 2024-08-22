@@ -83,9 +83,19 @@
 }
 
 .text-landing {
-  font-size: 46px;
+  font-size: 30px;
   font-weight: 600;
   line-height: 57.5px;
   letter-spacing: -0.02em;
   text-align: left;
+}
+
+@screen md {
+  .text-landing {
+    font-size: 46px;
+    font-weight: 600;
+    line-height: 57.5px;
+    letter-spacing: -0.02em;
+    text-align: left;
+  } 
 }

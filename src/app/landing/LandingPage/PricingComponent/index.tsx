@@ -51,7 +51,7 @@ const PricingComponent = () => {
         {items.map((value, index) => (
           <div
             key={"pricing-" + index}
-            className={`text-lg cursor-pointer py-2 w-32 text-center ${
+            className={`text-lg cursor-pointer py-2 md:w-32 w-28 text-center ${
               selectedItem == index && "bg-accent-ten rounded-lg"
             } relative`}
             onClick={() => {

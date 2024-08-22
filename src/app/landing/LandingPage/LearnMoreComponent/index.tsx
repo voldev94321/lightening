@@ -12,7 +12,7 @@ const bestLevels = [
 
 const LearnMoreComponent = () => {
   return (
-    <div className="mt-60 flex gap-14 items-center">
+    <div className="mt-60 md:flex gap-14 items-center">
       <img src="/img/learn.png" alt="learn" />
       <div>
         <div className="text-accent font-semibold">LEARN MORE ABOUT US</div>

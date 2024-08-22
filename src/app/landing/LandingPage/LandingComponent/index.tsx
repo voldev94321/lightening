@@ -6,15 +6,15 @@ import CustomerRating from "./CustomerRating";
 
 const LandingComponent = () => {
   return (
-    <div className="flex mt-12 gap-12">
+    <div className="md:flex mt-12 gap-12">
       <div className="flex-grow flex flex-col gap-3">
         <div className="text-accent uppercase font-semibold">
           Equipped with Millions of IP Resources
         </div>
-        <div className="text-landing flex gap-4 items-center">
+        <div className="text-landing flex gap-4 items-center flex-wrap">
           The Most{" "}
           <span>
-            <img src="/img/lightening.svg" alt="lightening" />
+            <img src="/img/lightening.svg" alt="lightening" className="w-4"/>
           </span>
           Complex
         </div>
