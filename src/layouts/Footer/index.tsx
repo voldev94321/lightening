@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 "use client";
 
 import { BiLogoTelegram } from "react-icons/bi";
@@ -64,7 +65,7 @@ const menus = [
 
 const Footer = () => {
   return (
-    <div className="bg-secondary pt-16 pb-7 mt-6">
+    <div className="bg-secondary pt-16 pb-7 mt-6 z-0">
       <div className="max-w-default w-5/6 mx-auto">
         <div className=" md:flex justify-between items-center">
           <div>

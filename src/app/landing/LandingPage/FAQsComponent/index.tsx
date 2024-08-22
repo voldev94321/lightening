@@ -37,7 +37,7 @@ const FAQsComponent = () => {
     setSelectedQA(index);
   };
   return (
-    <div className="md:mt-56 mt-20 md:py-10 md:px-16 py-5 px-6 border-accent-ten border-2 rounded-3xl flex flex-col max-w-[892px] mx-auto">
+    <div className="md:mt-56 mt-20 md:py-10 md:px-16 py-5 px-6 border-accent-ten border-2 rounded-3xl flex flex-col max-w-[892px] mx-auto bg-light-one md:-mb-[98px] z-10 relative">
       <div className="text-accent font-semibold text-lg">FAQs</div>
       <div className="md:text-3xl text-2xl font-semibold mt-2 mb-8">
         All your Questions, Answered
@@ -45,17 +45,17 @@ const FAQsComponent = () => {
       {QAs.map((item, index) => (
         <div
           key={"qa-" + index}
-          className={`md:p-7 p-3 border-2 rounded-2xl mb-3 cursor-pointer ${selectedQA == index && "border-accent"}`}
+          className={`md:px-6 md:py-4 p-3 border-2 rounded-lg mb-3 cursor-pointer ${selectedQA == index && "border-accent"} transition delay-150 duration-300`}
           onClick={()=>{handleClick(index)}}
         >
           <div className="flex justify-between items-center">
             <div className="font-semibold text-lg">{item.question}</div>
             <IoIosArrowDown />
           </div>
-          {selectedQA == index && <div className="mt-3 opacity-50">{item.answer}</div>}
+          <div className={`opacity-50 overflow-hidden transition-all delay-150 duration-300 ${selectedQA == index ? "scale-y-100 mt-3" : "scale-y-0 h-0"}`}>{item.answer}</div>
         </div>
       ))}
-      <div className="mt-6 flex items-center mx-auto px-7 py-3 border-2 border-accent rounded-full cursor-pointer">Read all FAQs <IoIosArrowForward /></div>
+      <div className="mt-6 flex items-center mx-auto px-7 py-3 border-2 border-accent rounded-full cursor-pointer font-semibold">Read all FAQs <IoIosArrowForward /></div>
     </div>
   );
 };

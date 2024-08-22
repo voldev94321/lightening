@@ -67,7 +67,7 @@ const config = {
         discord: 'hsl(var(--discord))',
         light: {
           DEFAULT: 'hsl(var(--light))',
-          one: 'hsla(var(--light) / 1%)',
+          one: '#fcfcfc',
           ten: 'hsla(var(--light) / 10%)'
         },
       },
