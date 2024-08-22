@@ -37,7 +37,7 @@ const FAQsComponent = () => {
     setSelectedQA(index);
   };
   return (
-    <div className="md:mt-56 mt-20 md:py-10 md:px-16 py-5 px-6 border-accent-ten border-2 rounded-3xl flex flex-col max-w-[892px] mx-auto bg-light-one lg:-mb-[98px] z-10 relative">
+    <div className="md:mt-56 mt-20 md:py-10 md:px-16 lg:py-5 lg:px-6 py-0 px-0 lg:border-accent-ten lg:border-2 rounded-3xl flex flex-col max-w-[892px] mx-auto lg:bg-light-one lg:-mb-[98px] z-10 relative">
       <div className="text-accent font-semibold text-lg">FAQs</div>
       <div className="md:text-3xl text-2xl font-semibold mt-2 mb-8">
         All your Questions, Answered

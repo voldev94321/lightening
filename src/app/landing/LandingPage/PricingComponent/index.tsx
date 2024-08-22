@@ -60,7 +60,7 @@ const PricingComponent = () => {
           >
             {value}
             {index == 0 && (
-              <div className="absolute top-0 left-1/2 -translate-x-1/2 -translate-y-1/2 text-white bg-accent rounded-full text-xs py-1 w-[68px]">
+              <div className="absolute -top-[6px] left-1/2 -translate-x-1/2 -translate-y-1/2 text-white bg-accent rounded-full md:text-xs text-2xs py-1 md:w-[68px] w-fit text-nowrap px-1">
                 10% OFF
               </div>
             )}
