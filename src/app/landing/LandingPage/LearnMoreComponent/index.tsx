@@ -56,13 +56,13 @@ const LearnMoreComponent = () => {
         {bestLevels.map((value, index) => (
           <div
             key={`bestlevels-` + index}
-            className="mt-1 flex items-center gap-1"
+            className="mt-3 flex items-center gap-4"
           >
             <GoCheck className="text-accent" />
-            <div className="opacity-75">{value}</div>
+            <div className="opacity-75 text-lg text-light">{value}</div>
           </div>
         ))}
-        <div className="bg-accent text-white px-12 py-4 rounded-2xl flex items-center cursor-pointer w-fit mt-6">
+        <div className="bg-accent text-white px-[54px] py-[18px] rounded-2xl flex items-center cursor-pointer w-fit mt-6 text-lg">
           Get Started&nbsp;
           <FaArrowRightLong className="w-3 h-3" />
         </div>
