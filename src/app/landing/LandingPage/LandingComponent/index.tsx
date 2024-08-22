@@ -6,7 +6,7 @@ import CustomerRating from "./CustomerRating";
 
 const LandingComponent = () => {
   return (
-    <div className="md:flex mt-24 gap-12">
+    <div className="lg:flex mt-24 gap-12">
       <div className="flex-grow flex flex-col gap-3">
         <div className="text-accent uppercase font-semibold">
           Equipped with Millions of IP Resources

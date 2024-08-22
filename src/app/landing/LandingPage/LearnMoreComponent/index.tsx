@@ -13,8 +13,8 @@ const bestLevels = [
 
 const LearnMoreComponent = () => {
   return (
-    <div className="md:mt-60 mt-20 md:flex gap-14 items-center">
-      <img src="/img/learn.png" alt="learn" />
+    <div className="md:mt-60 mt-20 lg:flex gap-14 items-center">
+      <img src="/img/learn.png" alt="learn" className="w-full lg:w-fit"/>
       <div className="mt-12 md:mt-0">
         <div className="text-accent font-semibold">LEARN MORE ABOUT US</div>
         <div className="hidden md:block">
@@ -38,7 +38,7 @@ const LearnMoreComponent = () => {
             <img
               src="/img/diamond.png"
               alt="diamond"
-              className="w-11 h-11 mx-2"
+              className="w-11 h-11 mx-2 "
             />{" "}
           </div>
           <div className="text-4xl font-semibold mt-2">

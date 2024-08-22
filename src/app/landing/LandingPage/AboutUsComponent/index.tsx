@@ -59,7 +59,7 @@ const AboutUsComponent = () => {
         We offer a reliable & complex proxy infrastructure at everyone&apos;s
         <br /> disposal, ready to deliver outstanding performances.
       </div>
-      <div className="grid md:grid-cols-3 grid-cols-1 mt-12 gap-6">
+      <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 mt-12 gap-6">
         {items.map((item, index) => (
           <div
             key={"about-grid-" + index}

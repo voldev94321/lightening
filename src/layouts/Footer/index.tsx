@@ -69,16 +69,17 @@ const Footer = () => {
   return (
     <div className="bg-secondary pt-16 pb-7 mt-6 z-0">
       <div className="max-w-default w-5/6 mx-auto">
-        <div className=" md:flex justify-between items-center">
+        <div className=" lg:flex justify-between items-center">
           <div>
             <img src="/img/logo.png" className="h-12" alt="logo" />
             <div className="mt-6 opacity-75 max-w-[379px] text-light leading-5">
-              LightningProxies offers a complex proxy
-              infrastructure equipped with many proxy solutions 
-              in one place. We have Datacenter, Residential, 
-              IPv6 & ISP proxies at a cost-effective price.
+              LightningProxies offers a complex proxy infrastructure equipped
+              with many proxy solutions in one place. We have Datacenter,
+              Residential, IPv6 & ISP proxies at a cost-effective price.
             </div>
-            <div className={`flex bg-discord mt-8 py-4 px-5 rounded-lg items-center gap-2 w-fit cursor-pointer ${inter.className}`}>
+            <div
+              className={`flex bg-discord mt-8 py-4 px-5 rounded-lg items-center gap-2 w-fit cursor-pointer ${inter.className}`}
+            >
               <FaDiscord className="text-white w-7 h-7" />
               <div>
                 <div className="text-white font-semibold">
@@ -90,7 +91,7 @@ const Footer = () => {
               </div>
             </div>
           </div>
-          <div className="md:flex gap-28 mt-20 hidden">
+          <div className="md:flex gap-28 mt-20 hidden md:w-full lg:w-fit justify-between">
             {menus.map((menu, index) => (
               <div key={"footer-menu-" + index}>
                 <div className="text-accent font-semibold mb-5">
@@ -134,7 +135,7 @@ const Footer = () => {
               </div>
               {menus[1].items.map((item, index1) => (
                 <div
-                  className="opacity-75 mb-3 cursor-pointer"
+                  className="opacity-75 mb-3 cursor-pointer  font-semibold"
                   key={"footer-item-" + index1}
                 >
                   {item.value}
