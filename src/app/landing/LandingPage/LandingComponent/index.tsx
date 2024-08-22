@@ -14,7 +14,7 @@ const LandingComponent = () => {
         <div className="text-landing flex gap-4 items-center flex-wrap">
           The Most{" "}
           <span>
-            <img src="/img/lightening.svg" alt="lightening" className="w-4"/>
+            <img src="/img/lightening.svg" alt="lightening" className=""/>
           </span>
           Complex
         </div>
