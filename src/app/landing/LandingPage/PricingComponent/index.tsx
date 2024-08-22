@@ -47,11 +47,11 @@ const PricingComponent = () => {
       <div className="text-center font-semibold text-3xl mt-1">
         Select the plan that suits you best
       </div>
-      <div className="flex border-[1px] rounded-lg w-full max-w-fit md:w-fit mx-auto mt-7 py-2 md:px-4 px-2 md:gap-2 gap-0 bg-light-one">
+      <div className="flex border-[2px] rounded-lg w-full max-w-fit md:w-fit mx-auto mt-7 py-2 md:px-4 px-2 md:gap-2 gap-0 bg-light-one border-light-five">
         {items.map((value, index) => (
           <div
             key={"pricing-" + index}
-            className={`md:text-lg text-xs cursor-pointer py-2 md:w-[123px] md:h-[49px] w-20 text-center font-semibold rounded-lg  hover:bg-accent-five transition ${
+            className={`md:text-lg text-xs text-light cursor-pointer py-2 md:w-[123px] md:h-fit w-20 text-center font-semibold rounded-lg  hover:bg-accent-five transition ${
               selectedItem == index && "bg-accent-ten text-accent"
             } relative`}
             onClick={() => {
@@ -98,7 +98,7 @@ const PricingComponent = () => {
           />
         </div>
         <div className="flex flex-col">
-          <div className="border-2 border-accent rounded-2xl bg-accent-ten px-11 py-8 lg:h-[475px] md:flex-grow flex flex-col justify-center">
+          <div className="border-2 border-accent rounded-2xl bg-accent-ten px-11 py-8 lg:min-h-[475px] md:flex-grow flex flex-col justify-center">
             <div className="text-xl font-semibold">IPv6</div>
             <div className="mt-4 opacity-75">
               Duis at est et tellus suscipit interdum non id mauris. Aenean

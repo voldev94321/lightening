@@ -70,6 +70,7 @@ const config = {
         light: {
           DEFAULT: 'hsl(var(--light))',
           one: '#fcfcfc',
+          five: 'hsla(var(--light) / 5%)',
           ten: 'hsla(var(--light) / 10%)',
           75: 'hsla(var(--light) / 75%)'
         },
