@@ -63,9 +63,9 @@ const TopBar = () => {
       {isMenu && (
         <div className="">
           <hr className="my-2"/>
-          <div className="flex justify-between mx-2">
+          <div className="flex justify-between">
             {menus.map((menu: any, index: number) => (
-              <div key={index} className="cursor-pointer text-sm">
+              <div key={index} className="cursor-pointer text-sm p-2 hover:bg-accent-ten w-1/4 text-center transition rounded-lg">
                 {menu.title}
               </div>
             ))}
