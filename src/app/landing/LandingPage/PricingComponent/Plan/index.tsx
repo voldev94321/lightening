@@ -9,7 +9,7 @@ interface PlanProps {
 
 const Plan = ({ title, additionalDescription, price, isBest }: PlanProps) => {
   return (
-    <div className={`px-11 py-9 rounded-2xl ${isBest ? "border-2 border-warning bg-warning-background " : "bg-secondary bg-opacity-5"}`}>
+    <div className={`px-11 py-9 rounded-2xl ${isBest ? "border-2 border-warning bg-warning-background " : "bg-light-one"}`}>
       <div className="flex justify-between items-center">
         <div>
           <div className={`text-lg font-semibold ${isBest && "text-warning"}`}>{title}</div>
@@ -18,7 +18,7 @@ const Plan = ({ title, additionalDescription, price, isBest }: PlanProps) => {
         </div>
         <div className="text-2xl font-semibold">${price}</div>
       </div>
-      <div className={`${isBest ? "bg-warning-background border-2 border-warning" : "bg-accent-ten text-accent"} rounded-lg text-center p-3 mt-4 cursor-pointer`}>Buy Now</div>
+      <div className={`${isBest ? "bg-warning-background border-2 border-warning" : "bg-accent-five text-accent"} rounded-lg text-center p-3 mt-4 cursor-pointer font-semibold`}>Buy Now</div>
     </div>
   );
 };

@@ -110,9 +110,9 @@ const PricingComponent = () => {
               </div>
             ))}
           </div>
-          <div className="mt-5 border-2 justify-between px-9 py-4 rounded-2xl items-center hidden md:flex">
+          <div className="mt-5 border-2 justify-between px-9 py-4 rounded-2xl items-center hidden md:flex bg-light-one border-light-ten">
             <div className="font-semibold">For any custom plans</div>
-            <div className="flex items-center bg-accent-ten text-accent px-8 py-3 rounded-xl font-semibold">
+            <div className="flex items-center bg-accent-five text-accent px-8 py-3 rounded-xl font-semibold">
               Contact Us&nbsp;
               <FaArrowRightLong className="w-3 h-3" />
             </div>

@@ -45,6 +45,7 @@ const config = {
           DEFAULT: "hsl(var(--accent))",
           quater: "hsla(var(--accent) / 25%)",
           ten: "hsla(var(--accent) / 10%)",
+          five: "hsla(var(--accent) / 5%)",
         },
         popover: {
           DEFAULT: "hsl(var(--popover))",
@@ -66,7 +67,8 @@ const config = {
         discord: 'hsl(var(--discord))',
         light: {
           DEFAULT: 'hsl(var(--light))',
-          one: 'hsla(var(--light) / 1%)'
+          one: 'hsla(var(--light) / 1%)',
+          ten: 'hsla(var(--light) / 10%)'
         },
       },
       borderRadius: {
