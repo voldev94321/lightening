@@ -31,7 +31,7 @@ const menus = [
 
 const TopBar = () => {
   return (
-    <CardBox className="md:mt-12 mt-4 md:h-24 w-full shadow-[0px_0px_5px_5px_rgb(150,150,150,0.05)]">
+    <CardBox className="sticky md:top-12 top-4 md:h-24 w-full bg-white z-20 shadow-[0px_0px_5px_5px_rgb(150,150,150,0.05)]">
       <div className="flex items-center w-full h-full justify-between">
         <img src="/img/logo.png" alt="logo" className="md:h-12 h-8" />
         <div className="md:flex gap-12 hidden">
