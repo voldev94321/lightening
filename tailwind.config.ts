@@ -64,6 +64,9 @@ const config = {
           background: "hsla(var(--warning) / 5%)",
         },
         discord: 'hsl(var(--discord))',
+        light: {
+          one: 'hsla(var(--light) / 1%)'
+        },
       },
       borderRadius: {
         lg: "var(--radius)",

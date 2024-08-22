@@ -63,7 +63,7 @@ const AboutUsComponent = () => {
         {items.map((item, index) => (
           <div
             key={"about-grid-" + index}
-            className={`px-11 py-8 cursor-pointer border-2 ${selectedItem == index ? "border-accent bg-accent-ten rounded-xl" : " border-transparent"}`}
+            className={`px-11 py-8 cursor-pointer border-2  rounded-xl ${selectedItem == index ? "border-accent bg-accent-ten" : " border-transparent bg-light-one"} hover:border-accent hover:bg-accent-ten`}
             onClick={() => {
               handleClick(index);
             }}
