@@ -24,7 +24,7 @@ const LearnMoreComponent = () => {
           <div className="text-4xl font-semibold mt-2 flex">
             the{" "}
             <img
-              src="/img/diamond.png"
+              src="/img/dia.png"
               alt="diamond"
               className="w-11 h-11 mx-2"
             />{" "}
@@ -36,7 +36,7 @@ const LearnMoreComponent = () => {
           <div className="text-4xl font-semibold mt-2 flex">
             service the{" "}
             <img
-              src="/img/diamond.png"
+              src="/img/dia.png"
               alt="diamond"
               className="w-11 h-11 mx-2 "
             />{" "}
