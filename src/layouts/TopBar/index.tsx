@@ -30,7 +30,7 @@ const TopBar = () => {
   const [isMenu, setIsMenu] = React.useState(false);
 
   return (
-    <CardBox className="sticky md:top-12 top-4 lg:h-24 w-full bg-white z-50 shadow-[0px_0px_5px_5px_rgb(150,150,150,0.05)]">
+    <CardBox className="sticky md:top-12 top-4 lg:h-24 max-w-default md:w-4/5 w-11/12  mx-auto bg-white z-50 shadow-[0px_0px_5px_5px_rgb(150,150,150,0.05)]">
       <div className="flex items-center w-full h-full justify-between">
         <img src="/img/logo.png" alt="logo" className="md:h-12 h-8" />
         <div className="lg:flex gap-12 hidden">

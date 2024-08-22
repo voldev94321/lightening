@@ -10,7 +10,6 @@ import FAQsComponent from "./FAQsComponent";
 const LandingPage = () => {
   return (
     <div className="max-w-default w-5/6 mx-auto">
-      <TopBar />
       <LandingComponent />
       <AboutUsComponent />
       <PricingComponent />
