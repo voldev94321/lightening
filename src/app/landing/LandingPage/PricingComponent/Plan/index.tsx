@@ -18,7 +18,7 @@ const Plan = ({ title, additionalDescription, price, isBest }: PlanProps) => {
         </div>
         <div className="text-2xl font-semibold">${price}</div>
       </div>
-      <div className={`${isBest ? "bg-warning-background border-2 border-warning" : "bg-accent-five text-accent"} rounded-lg text-center p-3 mt-4 cursor-pointer font-semibold`}>Buy Now</div>
+      <div className={`${isBest ? "bg-warning-background border-2 border-warning hover:bg-warning-quater" : "bg-accent-five text-accent hover:bg-accent-quater"} rounded-lg text-center p-3 mt-4 cursor-pointer font-semibold transition`}>Buy Now</div>
     </div>
   );
 };

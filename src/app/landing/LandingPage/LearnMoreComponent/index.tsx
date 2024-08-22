@@ -62,7 +62,7 @@ const LearnMoreComponent = () => {
             <div className="opacity-75 text-lg text-light">{value}</div>
           </div>
         ))}
-        <div className="bg-accent text-white px-[54px] py-[18px] rounded-2xl flex items-center cursor-pointer w-fit mt-6 text-lg">
+        <div className="bg-accent text-white px-[54px] py-[18px] rounded-2xl flex items-center cursor-pointer w-fit mt-6 text-lg hover:bg-accent-75 transition">
           Get Started&nbsp;
           <FaArrowRightLong className="w-3 h-3" />
         </div>

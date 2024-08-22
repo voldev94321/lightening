@@ -43,7 +43,7 @@ const TopBar = () => {
         </div>
         <div className="flex md:gap-4 gap-2 items-center">
           <div className="cursor-pointer md:block hidden">Log In</div>
-          <div className="bg-accent text-white md:px-6 px-4 md:py-3 py-2 md:rounded-2xl rounded-lg flex items-center cursor-pointer text-sm text-nowrap">
+          <div className="bg-accent text-white md:px-6 px-4 md:py-3 py-2 md:rounded-2xl rounded-lg flex items-center cursor-pointer text-sm text-nowrap  hover:bg-accent-75 transition">
             Get Started&nbsp;
             <FaArrowRightLong className="w-3 h-3" />
           </div>

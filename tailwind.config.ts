@@ -46,6 +46,7 @@ const config = {
           quater: "hsla(var(--accent) / 25%)",
           ten: "hsla(var(--accent) / 10%)",
           five: "hsla(var(--accent) / 5%)",
+          75: "hsla(var(--accent) / 75%)",
         },
         popover: {
           DEFAULT: "hsl(var(--popover))",
@@ -63,6 +64,7 @@ const config = {
         warning: {
           DEFAULT: 'hsl(var(--warning))',
           background: "hsla(var(--warning) / 5%)",
+          quater: "hsla(var(--warning) / 25%)",
         },
         discord: 'hsl(var(--discord))',
         light: {

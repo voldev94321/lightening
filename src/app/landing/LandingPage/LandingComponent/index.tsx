@@ -24,7 +24,7 @@ const LandingComponent = () => {
           any task, be it easy or difficult.
         </div>
         <div className="flex gap-6 items-center">
-          <div className="bg-accent text-white md:px-12 md:py-4 px-6 py-2 md:rounded-2xl rounded-lg flex items-center cursor-pointer">
+          <div className="bg-accent text-white md:px-12 md:py-4 px-6 py-2 md:rounded-2xl rounded-lg flex items-center cursor-pointer hover:bg-accent-75 transition">
             Get Started&nbsp;
             <FaArrowRightLong className="w-3 h-3" />
           </div>

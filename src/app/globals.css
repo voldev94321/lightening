@@ -103,4 +103,13 @@
 
 body {
   letter-spacing: -0.02em;
+  overflow-x: hidden;
+}
+
+.hover-effect:hover {
+  border-color: hsl(--accent);
+  border-width: 2px;
+  background-color: hsla(--accent) / 10%;
+  transition: all;
+  transition-delay: 150ms;
 }

@@ -55,7 +55,7 @@ const FAQsComponent = () => {
           <div className={`opacity-50 overflow-hidden transition-all delay-150 duration-300 ${selectedQA == index ? "scale-y-100 mt-3" : "scale-y-0 h-0"}`}>{item.answer}</div>
         </div>
       ))}
-      <div className="mt-6 flex items-center mx-auto px-7 py-3 border-2 border-accent rounded-full cursor-pointer font-semibold">Read all FAQs <IoIosArrowForward /></div>
+      <div className="mt-6 flex items-center mx-auto px-7 py-3 border-2 border-accent rounded-full cursor-pointer font-semibold  hover:bg-accent-ten transition">Read all FAQs <IoIosArrowForward /></div>
     </div>
   );
 };
