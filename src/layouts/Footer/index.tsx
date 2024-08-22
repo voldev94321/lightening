@@ -1,9 +1,11 @@
 /* eslint-disable @next/next/no-img-element */
 "use client";
 
+import { Inter } from "next/font/google";
 import { BiLogoTelegram } from "react-icons/bi";
 import { FaDiscord, FaFacebookF, FaTwitter } from "react-icons/fa6";
 import { RiInstagramFill } from "react-icons/ri";
+const inter = Inter({ subsets: ["latin"] });
 
 const menus = [
   {
@@ -70,13 +72,13 @@ const Footer = () => {
         <div className=" md:flex justify-between items-center">
           <div>
             <img src="/img/logo.png" className="h-12" alt="logo" />
-            <div className="mt-6 opacity-75 max-w-80">
+            <div className="mt-6 opacity-75 max-w-[379px] text-light leading-5">
               LightningProxies offers a complex proxy
               infrastructure equipped with many proxy solutions 
               in one place. We have Datacenter, Residential, 
               IPv6 & ISP proxies at a cost-effective price.
             </div>
-            <div className="flex bg-discord mt-8 py-4 px-5 rounded-lg items-center gap-2 w-fit cursor-pointer">
+            <div className={`flex bg-discord mt-8 py-4 px-5 rounded-lg items-center gap-2 w-fit cursor-pointer ${inter.className}`}>
               <FaDiscord className="text-white w-7 h-7" />
               <div>
                 <div className="text-white font-semibold">
@@ -96,7 +98,7 @@ const Footer = () => {
                 </div>
                 {menu.items.map((item, index1) => (
                   <div
-                    className="opacity-75 mb-3 cursor-pointer"
+                    className="opacity-75 mb-3 cursor-pointer font-semibold"
                     key={"footer-item-" + index1}
                   >
                     {item.value}
@@ -116,7 +118,7 @@ const Footer = () => {
                       </div>
                       {menu.items.map((item, index1) => (
                         <div
-                          className="opacity-75 mb-3 cursor-pointer"
+                          className="opacity-75 mb-3 cursor-pointer font-semibold"
                           key={"footer-item-" + index1}
                         >
                           {item.value}

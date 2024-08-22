@@ -100,3 +100,7 @@
     text-align: left;
   } 
 }
+
+body {
+  letter-spacing: -0.02em;
+}
