@@ -45,12 +45,12 @@ const LearnMoreComponent = () => {
             Best on the internet?
           </div>
         </div>
-        <div className="mt-4 text-lg opacity-75 ">
+        <div className="mt-4 text-lg opacity-75 text-light">
           In hac habitasse platea dictumst. Sed erat nibh, vulputate ut lorem
           at, tincidunt varius magna. Aenean enim dui, lacinia id faucibus a,
           vestibulum eu mi
         </div>
-        <div className="mt-6 text-lg opacity-75 text-nowrap">
+        <div className="mt-6 text-lg opacity-75 text-nowrap text-light">
           We got the best level of everything :
         </div>
         {bestLevels.map((value, index) => (

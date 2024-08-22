@@ -146,7 +146,7 @@ const Footer = () => {
         </div>
         <hr className="mt-12 mb-7" />
         <div className="md:flex justify-between items-center">
-          <div className="text-sm opacity-75 text-center md:text-left">
+          <div className="text-sm opacity-75 text-center md:text-left text-light">
             Copyright © 2023 LightningProxies All rights reserved.
           </div>
           <div className="flex gap-5 mt-6 md:mt-0 justify-center">
