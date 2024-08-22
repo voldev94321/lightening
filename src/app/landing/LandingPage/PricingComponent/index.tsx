@@ -47,12 +47,12 @@ const PricingComponent = () => {
       <div className="text-center font-semibold text-3xl mt-1">
         Select the plan that suits you best
       </div>
-      <div className="flex border-[1px] rounded-lg w-full max-w-fit md:w-fit mx-auto mt-7 py-2 md:px-4 px-2 md:gap-2 gap-0">
+      <div className="flex border-[1px] rounded-lg w-full max-w-fit md:w-fit mx-auto mt-7 py-2 md:px-4 px-2 md:gap-2 gap-0 bg-light-one">
         {items.map((value, index) => (
           <div
             key={"pricing-" + index}
-            className={`md:text-lg text-xs cursor-pointer py-2 md:w-32 w-20 text-center ${
-              selectedItem == index && "bg-accent-ten rounded-lg"
+            className={`md:text-lg text-xs cursor-pointer py-2 md:w-[123px] h-[49px] w-20 text-center font-semibold ${
+              selectedItem == index && "bg-accent-ten rounded-lg text-accent"
             } relative`}
             onClick={() => {
               handleClick(index);
@@ -60,7 +60,7 @@ const PricingComponent = () => {
           >
             {value}
             {index == 0 && (
-              <div className="absolute top-0 left-1/2 -translate-x-1/2 -translate-y-1/2 text-white bg-accent rounded-full px-2 text-xs py-1 min-w-20">
+              <div className="absolute top-0 left-1/2 -translate-x-1/2 -translate-y-1/2 text-white bg-accent rounded-full text-xs py-1 w-[68px]">
                 10% OFF
               </div>
             )}
