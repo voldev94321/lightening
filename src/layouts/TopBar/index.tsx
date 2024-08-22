@@ -61,7 +61,7 @@ const TopBar = () => {
         </div>
       </div>
       {isMenu && (
-        <div className="">
+        <div className="lg:hidden">
           <hr className="my-2"/>
           <div className="flex justify-between">
             {menus.map((menu: any, index: number) => (
